@@ -1,0 +1,39 @@
+# Model checkpoints and large artefacts
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+
+# Datasets (download via kagglehub, see README)
+data/
+datasets/
+aptos2019/
+*.zip
+*.tar
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Credentials
+kaggle.json
+.env
+*.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+runs/
+wandb/

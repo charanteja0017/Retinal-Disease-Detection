@@ -1,0 +1,22 @@
+# Core deep-learning stack
+torch>=2.1
+torchvision>=0.16
+transformers>=4.36
+
+# Data handling and metrics
+numpy
+pandas
+scikit-learn
+pillow
+opencv-python
+
+# Dataset download (needs Kaggle credentials, see README)
+kagglehub
+
+# Visualisation and explainability
+matplotlib
+grad-cam
+
+# Utilities
+tqdm
+jupyter
